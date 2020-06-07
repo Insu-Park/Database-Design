@@ -1,0 +1,11 @@
+/*
+데이터베이스설계 과제
+작성자: 김세연
+작성일: 2019-05-23
+
+SQL 설명: 코드테이블의 정보를 읽는다.
+*/
+
+SELECT DIVCD.DIVCD DIVCD, DTCD.DTCD, DIVCD.DIVCD_NAME, DTCD.CD_NAME
+FROM DIVCD, DTCD
+WHERE DIVCD.DIVCD=DTCD.DIVCD;
